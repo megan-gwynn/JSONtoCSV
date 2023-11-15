@@ -43,7 +43,7 @@ def create_dataframe(data: list) -> pd.Dataframe:
     return dataframe
 
 def add_excel_sheet():
-    filepath = "C:/Users/845730829/Documents/Pycharm/Python Script/Connect SSO QA&Prod active connections.xlsx"
+    filepath = "C:/Users/845730829/Documents/Python Script/Connect SSO QA&Prod active connections.xlsx"
 
     # generate workbook
     workbook = load_workbook(filepath)
